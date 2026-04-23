@@ -1,0 +1,36 @@
+{
+  "name": "ts-etag-cache",
+  "version": "1.0.0",
+  "description": "TypeScript HTTP ETag-based conditional request cache. Automatically handles If-None-Match/If-Modified-Since, caches responses, and returns cached data on 304 Not Modified.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "tsc --noEmit",
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "etag",
+    "http",
+    "cache",
+    "conditional",
+    "if-none-match",
+    "304",
+    "typescript"
+  ],
+  "author": "AVA-ICONIC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ava-avant-iconic/ts-etag-cache.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.5"
+  }
+}
